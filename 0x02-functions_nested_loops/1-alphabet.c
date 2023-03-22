@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * main - Function Prototype
+ * print_alphabet - Print all alphabet in lower case
  * Author - Akinbami Toafeek Olamide
  * Date - 22nd of March, 2023.
- * Return: 0
+ *
  */
 
 void print_alphabet(void)
