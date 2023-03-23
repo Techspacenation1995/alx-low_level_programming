@@ -8,16 +8,29 @@
  */
 void print_to_98(int n)
 {
-	while (n < 98)
+       	int i;
+
+	if (n <= 98) 
 	{
-		printf("%i, ", n);
-		n++;
+		for (i = n; i <= 98; i++) 
+		{
+			printf("%d", i);
+			if (i != 98) 
+			{
+				printf(", ");
+			}
+		}
+		else 
+		{
+			for (i = n; i >= 98; i--)
+			{
+				printf("%d", i);
+				if (i != 98)
+				{
+					printf(", ");
+				}
+			}
+		}
+		printf("\n");
 	}
-	while (n > 98)
-	{
-		printf("%i, ", n);
-		n--;
-	}
-	printf("98");
-	putchar('\n');
 }
