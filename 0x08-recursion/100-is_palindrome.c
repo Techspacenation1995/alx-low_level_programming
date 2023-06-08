@@ -52,7 +52,7 @@ int is_palindrome_recursive(char *s, int start, int end)
 		return (1); /* All characters have been compared, is palindrome */
 	}
 	/* Recursive case: Compare characters at the start and end indices */
-	if (*(s + start) != *(s + end -1))
+	if (*(s + start) != *(s + end - 1))
 	{
 		return (0); /* Charcters do not match and not a palindrome */
 	}
