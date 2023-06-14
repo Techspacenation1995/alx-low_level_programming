@@ -13,6 +13,11 @@ char *_strdup(char *str)
 	unsigned int length = 0;
 	char *copiedstr;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+
 	while (str[length] != '\0')
 	{
 		length++;
