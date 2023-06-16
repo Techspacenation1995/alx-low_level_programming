@@ -15,6 +15,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL) /* Condition when null is passed */
 		return ("");
+
 	if (s2 == NULL)
 		return ("");
 
@@ -32,6 +33,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (concat_String == NULL)
 	{
+		free(concat_String);
 		return (NULL);
 	}
 
