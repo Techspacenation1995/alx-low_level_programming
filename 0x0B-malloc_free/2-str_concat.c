@@ -15,7 +15,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL) /* Condition when null is passed */
 		return ("");
-	if (S2 == NULL)
+	if (s2 == NULL)
 		return ("");
 
 	/* Calculate the length of string 1 and string 2 */
