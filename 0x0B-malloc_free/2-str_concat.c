@@ -13,10 +13,10 @@ char *str_concat(char *s1, char *s2)
 	unsigned int len1 = 0, len2 = 0, i, j;
 	char *concat_String;
 
-	if ((s1 == NULL || s2 == NULL)) /* Condition when null is passed */
-	{
+	if (s1 == NULL) /* Condition when null is passed */
 		return ("");
-	}
+	if (S2 == NULL)
+		return ("");
 
 	/* Calculate the length of string 1 and string 2 */
 
