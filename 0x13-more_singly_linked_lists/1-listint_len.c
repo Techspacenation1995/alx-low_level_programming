@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_listint - A function that returns the number of elements
+ * listint_len - A function that returns the number of elements
  * @h: A pointer to a structure.
  *
  * Return: the number of nodes in the string.
