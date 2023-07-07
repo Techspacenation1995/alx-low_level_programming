@@ -22,7 +22,8 @@ unsigned int binary_to_uint(const char *b)
 		{
 			result = result << 1; /* Left shift the result by 1 position */
 		}
-		else if (b[i] == '1') /* Left shift the result by 1 position and set the rightmost bit to 1 */
+		else if (b[i] == '1')
+		/* Left shift the result by 1 position and set the rightmost bit to 1 */
 		{
 			result = (result << 1) | 1;
 		}
