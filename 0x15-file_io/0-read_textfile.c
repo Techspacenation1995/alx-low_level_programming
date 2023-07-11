@@ -5,8 +5,8 @@
 /**
  * read_textfile - A function that reads a textfile and print it to the POSIX
  * standard output
- * @filename - A pointer that points to the file name.
- * @letters - The number of characters that should be read
+ * @filename: A pointer that points to the file name.
+ * @letters: The number of characters that should be read
  *
  * Return: The number of character to the standard output.
  */
